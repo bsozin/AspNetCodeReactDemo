@@ -1,0 +1,52 @@
+# Mac-related stuff
+._.DS_Store/
+.DS_Store/
+*.DS_Store
+
+# Visual Studio cache/options directory
+.vs/
+
+# JetBrains Rider config folder
+.idea/
+
+# Visual Studio Code workspace folder
+**/.vscode/**
+
+# Node.js
+node_modules/
+
+# Ignore .orig files (original revisions written by Git on merge conflicts)
+*.orig
+
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore files built by Visual Studio
+[Bb]in/
+obj/
+csx/
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.cache
+*.ilk
+*.log
+*.sbr
+
+# Tools
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+.sass-cache/
+*.received.*
+
+# Binlog of msbuild
+*.binlog
+/CodeGraphData

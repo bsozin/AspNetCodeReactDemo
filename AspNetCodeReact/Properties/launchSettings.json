@@ -1,0 +1,30 @@
+{
+  "profiles": {
+    "AspNetCodeReact": {
+      "commandName": "Project",
+      "launchBrowser": true,
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development",
+            "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy",
+            "ConnectionStrings__CarsDB": "Data Source=localhost,14333;Initial Catalog=Cars;User ID=sa;Password=Pwd12345!"
+        },
+      "applicationUrl": "http://localhost:5233"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"
+      }
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:37145",
+      "sslPort": 0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+docker compose -p sozin-demo up

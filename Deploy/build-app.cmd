@@ -1,0 +1,1 @@
+docker build -t sozin-app -f dockerfile-app ../

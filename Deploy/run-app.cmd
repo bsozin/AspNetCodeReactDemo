@@ -1,0 +1,1 @@
+docker run --name sozin-app --env=ASPNETCORE_URLS=http://+:80 -p 5001:80 --rm sozin-app

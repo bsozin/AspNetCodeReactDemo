@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  sozin-app:
+    depends_on:
+      - sozin-db
+    container_name: sozin-app
+    image: sozin-app
+    ports:
+        - "5001:5001"
+    environment:
+      ASPNETCORE_URLS: "http://0.0.0.0:5001" 
+    build:
+      context: ../
+      dockerfile: Deploy/dockerfile-app
+
+  sozin-db:
+    container_name: sozin-db
+    image: sozin-db
+    ports:
+        - "14333:1433"
+    build:
+      context: ../
+      dockerfile: Deploy/dockerfile-db

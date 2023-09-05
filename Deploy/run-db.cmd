@@ -1,0 +1,1 @@
+docker run --name sozin-db --rm -p 14333:1433 -d sozin-db

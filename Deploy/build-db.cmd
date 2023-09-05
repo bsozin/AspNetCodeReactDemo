@@ -1,0 +1,1 @@
+docker build -t sozin-db -f dockerfile-db ../
